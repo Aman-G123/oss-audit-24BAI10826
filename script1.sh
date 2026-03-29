@@ -16,11 +16,11 @@ echo "User: $(whoami)"
 # Display home directory
 echo "Home: $HOME"
 
-# Display uptime
+# Display system uptime
 echo "Uptime: $(uptime -p)"
 
-# Display date
+# Display current date and time
 echo "Date: $(date)"
 
-# Display License
+# Display OS license information
 echo "License: GNU/Linux (GPL)"
