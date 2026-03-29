@@ -1,102 +1,140 @@
-# Open Source Audit Project
+# 🧾 Open Source Audit Project
 
-## Student Details
+## 👤 Student Details
 
-Name: Aman Garg
-Course: Open Source Software
-Chosen Software: Python
+* **Name:** Aman Garg
+* **Course:** Open Source Software
+* **Chosen Software:** Python
 
 ---
 
 ## 📌 Project Overview
 
-This project is an audit of an open-source software system (Python). It explores the origin, philosophy, licensing, and real-world usage of Python. It also demonstrates basic Linux shell scripting skills through five scripts.
+This project is a structured audit of an open-source software system, specifically **Python**. It explores the origin, philosophy, licensing, and ecosystem of Python, along with its practical usage in a Linux environment.
+
+In addition to the theoretical analysis, the project demonstrates hands-on Linux skills through five shell scripts that perform real system-level tasks such as system inspection, package checking, log analysis, and user interaction.
 
 ---
 
-## 💻 Shell Scripts
+## 💻 Shell Scripts Description
 
 ### 🔹 Script 1: System Identity Report
 
-Displays basic system information such as:
+Displays essential system information:
 
 * Kernel version
-* Current user
+* Logged-in user
 * Home directory
 * System uptime
-* Date and time
+* Current date and time
+* OS license
 
 ---
 
 ### 🔹 Script 2: FOSS Package Inspector
 
-* Checks if Python is installed
-* Displays package details
-* Prints a short description
+* Checks whether Python is installed
+* Displays package details (version, summary)
+* Uses conditional statements and case structure
 
 ---
 
 ### 🔹 Script 3: Disk and Permission Auditor
 
-* Checks important system directories
-* Displays permissions and size
+* Analyzes important system directories
+* Displays permissions, ownership, and disk usage
+* Uses loops and command-line utilities
 
 ---
 
 ### 🔹 Script 4: Log File Analyzer
 
-* Reads a log file
-* Counts occurrences of a keyword (like "error")
-* Displays last 5 matching lines
+* Reads a log file line-by-line
+* Counts occurrences of a keyword (default: "error")
+* Displays the last 5 matching entries
 
 ---
 
 ### 🔹 Script 5: Open Source Manifesto Generator
 
-* Takes user input
-* Generates a personalized manifesto
+* Takes user input interactively
+* Generates a personalized open-source statement
 * Saves output to a text file
 
 ---
 
-## ⚙️ How to Run Scripts
+## ⚙️ How to Run the Project
 
-1. Open terminal (Ubuntu / WSL)
+### 1️⃣ Open Terminal (Ubuntu / WSL)
 
-2. Navigate to project folder:
-   cd oss_project
+### 2️⃣ Navigate to project directory
 
-3. Give execution permission:
-   chmod +x script1.sh
-   chmod +x script2.sh
-   chmod +x script3.sh
-   chmod +x script4.sh
-   chmod +x script5.sh
+cd oss_project
 
-4. Run scripts:
-   ./script1.sh
-   ./script2.sh
-   ./script3.sh
-   ./script4.sh /var/log/syslog
-   ./script5.sh
+### 3️⃣ Give execution permissions
+
+chmod +x script1.sh
+chmod +x script2.sh
+chmod +x script3.sh
+chmod +x script4.sh
+chmod +x script5.sh
+
+### 4️⃣ Run the scripts
+
+./script1.sh
+./script2.sh
+./script3.sh
+./script4.sh /var/log/syslog
+./script5.sh
+
+---
+
+## 📂 Repository Structure
+
+* script1.sh → System Identity Report
+* script2.sh → Package Inspector
+* script3.sh → Disk Auditor
+* script4.sh → Log Analyzer
+* script5.sh → Manifest Generator
+* README.md → Project documentation
 
 ---
 
 ## 🧰 Requirements
 
-* Linux environment (Ubuntu / WSL)
-* Basic terminal knowledge
+* Ubuntu / Linux environment (or WSL on Windows)
+* Bash shell
+* Basic knowledge of terminal commands
 
 ---
 
-## 📚 Learning Outcome
+## 📚 Learning Outcomes
 
-* Understanding of open-source philosophy
-* Hands-on experience with Linux commands
-* Shell scripting basics (loops, conditions, variables)
+* Understanding of open-source philosophy and licensing
+* Hands-on experience with Linux commands and file systems
+* Practical knowledge of shell scripting concepts:
+
+  * Variables
+  * Loops
+  * Conditional statements
+  * File handling
 
 ---
 
 ## 🚀 Conclusion
 
-This project helped in understanding how open-source software works and how Linux-based systems operate. It also improved practical skills in shell scripting and system interaction.
+This project provided both theoretical and practical understanding of open-source systems. It highlighted how Python, as an open-source language, is widely used and supported by a strong global community.
+
+The scripting tasks helped in developing problem-solving skills and improved familiarity with Linux-based environments.
+
+---
+
+## 📎 Example Usage
+
+./script4.sh /var/log/syslog
+
+---
+
+## 🔐 Note
+
+All scripts are tested on a Linux environment (WSL Ubuntu) and are designed to run without errors.
